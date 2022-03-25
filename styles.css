@@ -1,12 +1,43 @@
-body{
-    background-color: navy;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Yellowtail&display=swap');
+
+body {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: #292b35;
+    color:#279227;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+hr {color:#279227;}
+
 h1 {
-    color:goldenrod;
+    text-align: center;
+    font-family: 'Press Start 2P',cursive;
 }
-h2{
-    color:goldenrod;
+
+h3 {
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
 }
-h3{
-    color:goldenrod;
+
+h6 {
+    padding: 10px;
+    text-align: center;
+    background-color: #a8ffaf ;
+    border-style: outset;
+    border-width: 10px;
+}
+
+a {color:#15c215}
+
+p {text-align: justify;}
+
+#falacao {text-indent: 1cm;}
+
+.container {
+    border-style: inset;
+    border-width: 10px;
+    padding: 1px;
+    vertical-align: middle;
+    background-color: black;
 }
