@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-color: rgb(35, 35, 55);
+    background: linear-gradient(to bottom right, rgba(35, 35, 55,1)0%, rgb(40, 40, 60)50%, rgb(45, 45, 65)100%) fixed;
+    color: rgb(255, 244, 228);
+}
+
+.input-container {
+    border: 10px;
+    border-style: ridge;
+    border-color: rgb(113, 114, 199);
+    background-color: rgb(153, 137, 180);
+    padding: 10px;
+    margin: 100px;
+    position: relative;
+}
+
+input {
+    padding-left: 35px;
+    height: 20px;
+    width: 300px;
+}
+
+svg {
+    top: calc(50% - 12px);
+    left: 15px;
+    position: absolute;
+    color: #000;
+}
